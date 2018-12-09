@@ -269,3 +269,13 @@
     }
   }
 }
+
+/**
+ * Customizations
+ */
+.page-heading {
+  @include relative-font-size(2.625);
+}
+a.text-link {
+  color: $grey-color;
+}
